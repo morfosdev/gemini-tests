@@ -26,7 +26,7 @@
           let args: any = [];
 
           const screens = [
-            
+            // 
         
 
         (...args: any) => <Elements.Screen3 pass={{
@@ -138,13 +138,13 @@
           ];
 
           const initCt = () => ({
-            true: "true"
+            // true: "true"
           });
           const initObj = initCt();
           // console.log(initObj);
 
           const arrInitFuncs = [
-            ()=>{}
+            // ()=>{}
           ];
 
           export const useRoutes = create(() => ({ currRoute }));
