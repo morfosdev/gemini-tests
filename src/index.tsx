@@ -401,24 +401,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
               }
               ],
 
-          childrenItems: [(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            {}
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            jsvals.j8({pass: {
-          propertieValues: "Clique"
-        }})
-          ],
-
-          args,
-
-        }}/>],
+          childrenItems: [()=><></>],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
