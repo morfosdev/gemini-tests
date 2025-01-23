@@ -405,16 +405,22 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
         }}/>],
 
-          styles: [
-              {
-                backgroundColor: 'blue',
-                borderRadius: 20,
-                paddingVertical: 5,
-                paddingHorizontal: 20,
-                justifyContent: 'center',
-                alignItems: 'center',
-              }
-              ],
+          styles: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
 
           childrenItems: [()=><></>],
 
