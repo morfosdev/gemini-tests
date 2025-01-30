@@ -387,7 +387,8 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
       args,
-    }}/>, (...args:any) => <Elements.Pressable3 pass={{
+    }}/>, 
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [
@@ -421,6 +422,18 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }}/>],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>, (...args:any) => <Elements.IptTxt2 pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
+
+          funcsArray: [() => {}],
 
           args,
         }}/>],
