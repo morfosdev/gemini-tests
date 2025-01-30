@@ -421,7 +421,9 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
               }
               ],
 
-          childrenItems: [()=><></>],
+          childrenItems: [jsvals.j8({pass: {
+          propertieValues: ""
+        }})],
 
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
