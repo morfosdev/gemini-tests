@@ -391,7 +391,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           elementProperties: [{}],
 
           styles: [stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: "red"
+          propertieValues: ""red""
         }})] }})],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
