@@ -463,7 +463,7 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
 
           children: [
             jsvals.j8({pass: {
-          propertieValues: ""
+          propertieValues: "clique"
         }})
           ],
 
