@@ -390,9 +390,16 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
     }}/>, (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
-          styles: [stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
-          propertieValues: ""red""
-        }})] }})],
+          styles: [
+              {
+                backgroundColor: 'blue',
+                borderRadius: 20,
+                paddingVertical: 5,
+                paddingHorizontal: 20,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+              ],
 
           childrenItems: [(...args:any) => <Elements.Text pass={{
           arrProps: [
