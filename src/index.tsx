@@ -370,6 +370,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             args,
           }}/>
         , 
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -386,7 +387,26 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
       args,
-    }}/>],
+    }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            stls.color({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "red"
+        }})] }})
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "teste01"
+        }})
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
