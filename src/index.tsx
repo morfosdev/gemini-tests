@@ -370,6 +370,7 @@ stls.justifyContent({ pass: { arrayValue: ['center'] }}), stls.alignItems({ pass
             args,
           }}/>
         , 
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -386,7 +387,36 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
         }})],
 
       args,
-    }}/>],
+    }}/>, (...args:any) => <Elements.Pressable3 pass={{
+          elementProperties: [{}],
+
+          styles: [stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
+          propertieValues: "red"
+        }})] }})],
+
+          childrenItems: [(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "teste 04"
+        }})
+          ],
+
+          args,
+
+        }}/>],
+
+          pressableFunctions: [()=>console.log("Você Clicou!")],
+
+          args,
+        }}/>],
 
             args,
           }}/>
