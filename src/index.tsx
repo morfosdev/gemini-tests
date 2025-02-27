@@ -417,7 +417,8 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
-        }}/>, (...args:any) => <Elements.Pressable3 pass={{
+        }}/>, 
+        (...args:any) => <Elements.Pressable3 pass={{
           elementProperties: [{}],
 
           styles: [stls.backgroundColor({ pass: { arrayValue: [jsvals.j8({pass: {
@@ -446,6 +447,23 @@ stls.height({ pass: { arrayValue: [jsvals.j8({pass: {
           pressableFunctions: [()=>console.log("Você Clicou!")],
 
           args,
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            jsvals.j8({pass: {
+          propertieValues: "texto color"
+        }})
+          ],
+
+          args,
+
         }}/>],
 
             args,
